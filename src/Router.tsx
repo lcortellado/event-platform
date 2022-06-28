@@ -7,6 +7,7 @@ const Router = () => {
     return (
        <Routes>
         <Route path='/' element={<Subcribe />}/>
+        <Route path='/event' element={<Event />}/>
         <Route path='/event/lesson/:slug' element={<Event />}/>
        </Routes>
     );
